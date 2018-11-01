@@ -40,7 +40,7 @@
     "asia": "^0.19.7",
     "gitcommit": "^1.0.8",
     "new-release": "^4.0.3",
-    "nyc": "^12.0.2",
+    "nyc": "^13.0.0",
     "parcel-bundler": "^1.9.7",
     "typescript": "^2.9.2",
     "xaxa": "^2.0.0"
