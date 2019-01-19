@@ -11,6 +11,7 @@
     "precommit": "yarn run lint && yarn run test-only",
     "commit": "yarn dry",
     "dry": "git add -A && git status --porcelain && gitcommit",
+    "prerelease": "bili --format cjs",
     "release": "tunnckocore-release",
     "clean": "rm -rf node_modules",
     "clean:cache": "rm -rf node_modules/.cache"
@@ -21,18 +22,18 @@
   "dependencies": {
     "collect-mentions": "^1.0.2",
     "dedent": "^0.7.0",
-    "esm": "^3.0.84",
     "mixin-deep": "^2.0.0"
   },
   "devDependencies": {
     "@tunnckocore/config": "^1.0.0",
-    "asia": "^0.19.7"
+    "asia": "^0.19.7",
+    "bili": "^3.4.2"
   },
   "files": [
     "src",
     "index.js"
   ],
-  "main": "index.js",
+  "main": "dist/parse-commit-message.cjs.js",
   "module": "src/index.js",
   "typings": "src/index.d.ts",
   "version": "3.0.0",
