@@ -1,4 +1,5 @@
 # parse-commit-message [![npm version][npmv-img]][npmv-url] [![github release][ghrelease-img]][ghrelease-url] [![License][license-img]][license-url]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FtunnckoCoreLabs%2Fparse-commit-message.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FtunnckoCoreLabs%2Fparse-commit-message?ref=badge_shield)
 
 > Extensible parser for git commit messages following Conventional Commits Specification
 
@@ -886,3 +887,5 @@ Released under the [Apache-2.0 License][license-url].
 [parse-commit-message]: https://github.com/tunnckoCoreLabs/parse-commit-message
 [recommended-bump]: https://github.com/tunnckoCoreLabs/recommended-bump
 [semantic-release]: https://github.com/semantic-release/semantic-release
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FtunnckoCoreLabs%2Fparse-commit-message.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FtunnckoCoreLabs%2Fparse-commit-message?ref=badge_large)
