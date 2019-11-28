@@ -16,7 +16,7 @@
     "clean:cache": "rm -rf node_modules/.cache"
   },
   "engines": {
-    "node": "^8.10.0 || >=10.13.0"
+    "node": "^8.10.0 || >=10.13.0 || ^12"
   },
   "dependencies": {
     "collect-mentions": "^1.0.2",
